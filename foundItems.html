@@ -1,0 +1,9 @@
+<div class="container">
+<div ng-repeat="item in list.items">
+    <div class="row"><div class="col-md-2">{{ item.name }}</div>
+   <div class="col-md-1">{{item.short_name}}</div>
+   <div class="col-md-2">{{ item.description}}</div>
+    <button ng-click="list.onRemove({index: $index});">Don't want this one!</button></div>
+</div>
+<div class="error" ng-if="list.items.length==0">No Search Results Found</div>
+</div>
