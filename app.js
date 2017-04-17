@@ -49,8 +49,9 @@ list.removeItem= function(itemIndex){
 MenuSearchService.$inject=['$http', 'ApiBasePath']; 	
 function MenuSearchService($http, ApiBasePath){
 	var service = this;
-	service.getMatchedMenuItems = function(searchWord){
-        var foundItems = [];
+    var foundItems=[];
+    service.getMatchedMenuItems = function(searchWord){
+        foundItems = [];
 		return $http({
 			method: "GET",	
 		url: ApiBasePath}).then(function (result) {

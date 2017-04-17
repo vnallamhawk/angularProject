@@ -1,0 +1,22 @@
+{
+  "name": "Angular project",
+  "version": "1.0.0",
+  "description": "Angular project using promises,directive",
+  "scripts": {
+    "live": "live-server",
+    "start": "npm run live"
+  },
+  "keywords": [],
+  "author": "Rakesh Nallam (rakesh.iitc@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-messages": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^0.9.2"
+  }
+}
